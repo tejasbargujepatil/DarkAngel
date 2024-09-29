@@ -58,34 +58,57 @@ python vulnerability_scan.py
 You will be prompted to enter the target IP address or domain (without http/https). Ensure the target is valid and that you have permission to scan it.
 
 **Example**
-
-Enter the target IP address or domain (without http/https): 192.168.1.1 <br>
-
-**Functionality Overview** <br>
+ ```bash
+Enter the target IP address or domain (without http/https): 192.168.1.1
+ ```
+ <br>
+  <hr>
+  
+**Functionality Overview**
+<br>
 <br>
 Port Scanning: Scans for common vulnerable ports including FTP, SSH, HTTP, and more.
 <br>
+<br>
 CVE Checks: If a vulnerable service is detected, the script logs known CVEs associated with that service. <br>
+<br>
 Default Credentials Check: Attempts to connect to FTP using default anonymous credentials. <br>
+<br>
 Web Directory Scan: Checks for common directories like /admin, /login, etc., to find potentially exposed areas of a web application. <br>
-
+ <br>
+ 
 <hr>
-**Security Checks:** <br>
+
+**Security Checks:** 
+<br>
 
 Directory Traversal: Tests for directory traversal vulnerabilities. <br>
+
 SQL Injection: Checks for potential SQL injection points. <br>
+
 XSS Vulnerabilities: Tests for reflected XSS vulnerabilities. <br>
+
+ <hr>
 
 **Contributing:**
 
-*Contributions are welcome! If you have suggestions or improvements, feel free to submit a pull request or open an issue. Please ensure that your contributions follow the project’s code style and standards.*
+*Contributions are welcome! If you have suggestions or improvements, feel free to submit a pull request or open an issue. Please ensure that your contributions follow the project’s*  *code style and standards.*
 <br>
+ <hr>
+  <br>
+  
 **License**
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+ <br>
+ <hr>
 
 **_Author_**
 
 **_Tejas Bargujepatil_**
+ <br>
+  <hr>
+  
+**Disclaimer:**  <br>
 
-**Disclaimer: This tool is intended for educational purposes only. Ensure you have permission to scan and test any network or application before use.**
+**_This tool is intended for educational purposes only. Ensure you have permission to scan and test any network or application before use._**
